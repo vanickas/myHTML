@@ -15,13 +15,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-/* Container */
-.container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 /* Intro */
 .intro {
     display: flex;
@@ -34,11 +27,30 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+/* Container */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .intro__inner {
     width: 100%;
     max-width: 580px;
     margin: 0 auto;
     text-align: center;
+}
+
+.figure_upper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure_bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro__title {
@@ -53,6 +65,9 @@ h1, h2, h3, h4, h5, h6 {
 .intro__subtitle {
     font-size: 10px;
     font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
     color: #fff;
     text-transform: uppercase;
 }
